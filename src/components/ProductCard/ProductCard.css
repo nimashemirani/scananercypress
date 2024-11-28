@@ -1,0 +1,59 @@
+/* src/components/ProductCard/ProductCard.css */
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 200px; /* عرض ثابت برای کارت‌ها */
+    background-color: #fff; /* رنگ پس‌زمینه کارت */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* سایه برای عمق بیشتر */
+    transition: transform 0.2s; /* انیمیشن برای افکت هاور */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* بزرگ شدن کارت در هاور */
+}
+
+.product-image {
+    width: 150px; /* عرض ثابت */
+    height: 150px; /* ارتفاع ثابت */
+    object-fit: cover; /* حفظ نسبت تصویر */
+}
+
+.counter {
+    display: flex; /* استفاده از فلیکس برای چیدمان */
+    align-items: center; /* تراز کردن عمودی */
+    justify-content: center; /* تراز کردن افقی */
+    margin: 10px 0; /* فاصله عمودی */
+}
+
+.counter-button {
+    background-color: #007bff; /* رنگ پس‌زمینه دکمه */
+    color: white; /* رنگ متن دکمه */
+    border: none; /* حذف حاشیه */
+    border-radius: 4px; /* گوشه‌های گرد */
+    padding: 5px 10px; /* فاصله داخلی */
+    cursor: pointer; /* نشانگر ماوس */
+    margin: 0 5px; /* فاصله افقی بین دکمه‌ها */
+    transition: background-color 0.3s; /* انیمیشن تغییر رنگ */
+}
+
+.counter-button:hover {
+    background-color: #0056b3; /* رنگ پس‌زمینه در هاور */
+}
+
+.counter span {
+    font-size: 16px; /* اندازه متن شمارنده */
+    margin: 0 10px; /* فاصله افقی */
+}
+
+@media (max-width: 768px) {
+    .product-card {
+        width: 100%; /* عرض کارت به 100% تغییر می‌کند */
+    }
+
+    .product-image {
+        width: 100%; /* عرض تصویر به 100% تغییر می‌کند */
+        height: auto; /* ارتفاع تصویر به صورت خودکار تنظیم می‌شود */
+    }
+}

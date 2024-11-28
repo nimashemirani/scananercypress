@@ -1,0 +1,28 @@
+/* src/components/hamurgermenu/HamburgerMenu.css */
+ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #fff; /* رنگ پس‌زمینه منو */
+    border: 1px solid #ccc; /* حاشیه */
+    border-radius: 5px; /* گوشه‌های گرد */
+}
+
+li {
+    margin: 10px 0;
+}
+
+li a {
+    color: #333; /* رنگ متن لینک */
+    text-decoration: none; /* حذف زیرخط */
+}
+
+li a:hover {
+    color: #4CAF50; /* رنگ لینک در هاور */
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}

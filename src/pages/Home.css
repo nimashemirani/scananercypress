@@ -1,0 +1,16 @@
+/* src/pages/Home.css */
+body {
+    background-color: #F5F5F5; /* رنگ پس‌زمینه */
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #4CAF50; /* رنگ اصلی */
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    color: #333; /* رنگ متن */
+}
