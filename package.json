@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "open": "^10.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0",
@@ -41,6 +42,11 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^13.16.0"
+    "@cypress/webpack-preprocessor": "^6.0.2",
+    "@types/cypress": "^1.1.6",
+    "cypress": "^13.16.0",
+    "cypress-xpath": "^2.0.1",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.7.2"
   }
 }
